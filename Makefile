@@ -1,6 +1,6 @@
 CC ?= cc
 STND ?= -ansi -pedantic
-CFLAGS += $(STND) -Wall -Werror -Wextra
+CFLAGS += $(STND) -O2 -Wall -Werror -Wextra
 
 all: ccbasic
 
